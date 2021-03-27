@@ -1,5 +1,6 @@
 const http = require("http");
-
+//port para heroky
+const port = parseInt(process.env.PORT) || 3074;
 const server = http.createServer((req, res) => {
   switch (req.url) {
     case "/":
@@ -14,6 +15,6 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(3074, () => {
+server.listen(port, () => {
   console.log("Servidor operando en puerto 3000");
 });
