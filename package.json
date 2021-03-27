@@ -1,0 +1,23 @@
+{
+  "name": "express-henry",
+  "version": "1.0.0",
+  "description": "Express with henry team mates",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnmanuelMC/Express-henry.git"
+  },
+  "author": "Enmanuel Marcano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnmanuelMC/Express-henry/issues"
+  },
+  "homepage": "https://github.com/EnmanuelMC/Express-henry#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
+
